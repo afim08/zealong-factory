@@ -8,9 +8,9 @@ class Config:
     #setting up the database location
     #a site.db will be created along with our py file in the directory 
     #we have setup the location here
-    #SQLALCHEMY_DATABASE_URI ='sqlite:///site.db'
-    SQLALCHEMY_DATABASE_URI ='postgres://ljruexzzfzetkc:bf2518d1bff71ec984fd0a109be6710d525ed991f9b81d2b8cd94371aa50a228@ec2-44-209-57-4.compute-1.amazonaws.com:5432/d4tkhtv4nqiu1j'
-
+    SQLALCHEMY_DATABASE_URI ='sqlite:///site.db'
+    #SQLALCHEMY_DATABASE_URI ='postgres://ljruexzzfzetkc:bf2518d1bff71ec984fd0a109be6710d525ed991f9b81d2b8cd94371aa50a228@ec2-44-209-57-4.compute-1.amazonaws.com:5432/d4tkhtv4nqiu1j'
+   # postgres://ljruexzzfzetkc:bf2518d1bff71ec984fd0a109be6710d525ed991f9b81d2b8cd94371aa50a228@ec2-44-209-57-4.compute-1.amazonaws.com:5432/d4tkhtv4nqiu1j
 
 
     #we need a mail server, mail port , TLS, username and password
