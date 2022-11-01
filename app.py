@@ -5,4 +5,4 @@ app= create_app()
 # in the cmd, then we wont need to stop and rerun the server to 
 #display the changes made
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port =39199)
